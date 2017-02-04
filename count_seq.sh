@@ -1,1 +1,3 @@
-grep -c ">"grep -c ">" ~/Desktop/data-shell/data/genomes.fa 
+#!/bin/bash
+# USAGE: bash count_seq.sh FASTA
+grep -c ">" #1 
